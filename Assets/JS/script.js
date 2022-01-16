@@ -1,6 +1,8 @@
 const quizContainer = document.getElementById("quiz");
 const resultContainer = document.getElementById("results");
 const submitButton = document.getElementById("submit");
+let currentQuestion = /* choose a random question */
+
 
 function quizBuilder() {
   const output = [];
@@ -116,7 +118,9 @@ create a button that starts the quiz
 add event listener for the submit button
 create a timer for the quiz
 create a way for wrong answers to deduct time from the quiz
-create a display for how many answers were correct in the end */
+create a display for how many answers were correct in the end 
+use local storage to get user input and then log it as a highscore
+*/
 
 
 /* GIVEN I am taking a code quiz
