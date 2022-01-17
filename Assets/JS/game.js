@@ -17,7 +17,7 @@ let questions = [
     choice2: "TypeScript",
     choice3: "npm",
     choice4: "Python",
-    answer: "c",
+    answer: "3",
     },
     {
     question: "Which quiz answer is usually the correct one?",
@@ -25,7 +25,7 @@ let questions = [
     choice2: "B",
     choice3: "C",
     choice4: "We're taking a quiz?",
-    answer: "c",
+    answer: "3",
     },
     {
     question: "Who invented JavaScript?",
@@ -33,7 +33,7 @@ let questions = [
     choice2: "Sheryl Sandberg",
     choice3: "Brendan Eich",
     choice4: "Albert Einstein",
-    answer: "c",
+    answer: "3",
     },
     {
     question: "Which tool can you use to ensure code quality?",
@@ -41,7 +41,7 @@ let questions = [
     choice2: "jQuery",
     choice3: "RequireJS",
     choice4: "ESLint",
-    answer: "d",
+    answer: "4",
     },
     {
     question: "Which is a great resource for various documentation?",
@@ -49,7 +49,7 @@ let questions = [
     choice2: "Stack-overflow",
     choice3: "Youtube",
     choice4: "MDN by Mozzila",
-    answer: "d"
+    answer: "4"
     }
 ];
 
