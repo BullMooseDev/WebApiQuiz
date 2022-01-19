@@ -7,6 +7,16 @@ body {
     color: #fff;
 }
 
+.CDtimer {
+    padding: 1rem;
+    background: #542D07;
+    color:#fff;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 87.5%;
+    margin-top: 5%;
+}
+
 #scoretext {
 padding: 1.5rem 1.5rem;
 background: linear-gradient(#828180, #713A04);

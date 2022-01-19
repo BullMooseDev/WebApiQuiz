@@ -3,6 +3,8 @@ const choices = Array.from(document.querySelectorAll(".choice-text"));
 const progressText = document.querySelector("#progressText");
 const scoreText = document.querySelector("#score");
 const progressBarFull = document.querySelector("#progressBarFull");
+const timer = document.querySelector(".CDtimer")
+var timeleft = 60;
 
 let currentQuestion = {};
 let acceptingAnswers = true;
@@ -99,6 +101,9 @@ choices.forEach(choice => {
         if(classToApply === "correct") {
             incrementScore(SCORE_POINTS)
         }
+        else {
+            timeleft -=15;
+        }
 
         selectedChoice.parentElement.classList.add(classToApply)
 
@@ -114,5 +119,18 @@ incrementScore = num => {
     score +=num
     scoreText.innerText = score
 };
+
+var quizTimer = setInterval(function(){
+  if(timeleft <= 0){
+    clearInterval(quizTimer);
+    document.getElementById("timer").innerHTML = "Finished";
+    window.location.href = "../HTML/end.html";
+  } else {
+    document.getElementById("timer").innerHTML = timeleft + " seconds remaining";
+  }
+  timeleft -= 1;
+}, 1000);
+
+
 
 startGame();
