@@ -9,7 +9,7 @@ body {
 
 .CDtimer {
     padding: 1rem;
-    background: #542D07;
+    background: linear-gradient(#542D07, #8E4F11);
     color:#fff;
     border-radius: 5px;
     margin-left: 5%;
